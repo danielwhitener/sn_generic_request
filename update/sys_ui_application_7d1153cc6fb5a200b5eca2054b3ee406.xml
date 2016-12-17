@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <hint/>
+        <name>CVMC Generic Request</name>
+        <order/>
+        <roles>x_cavmc_g_request.user</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>dwhitener</sys_created_by>
+        <sys_created_on>2016-09-07 00:54:57</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>7d1153cc6fb5a200b5eca2054b3ee406</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CVMC Generic Request</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Generic Request" source="x_cavmc_g_request">ef01930c6fb5a200b5eca2054b3ee4f9</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Generic Request">ef01930c6fb5a200b5eca2054b3ee4f9</sys_scope>
+        <sys_update_name>sys_ui_application_7d1153cc6fb5a200b5eca2054b3ee406</sys_update_name>
+        <sys_updated_by>dwhitener</sys_updated_by>
+        <sys_updated_on>2016-09-07 00:54:57</sys_updated_on>
+    </sys_ui_application>
+</record_update>

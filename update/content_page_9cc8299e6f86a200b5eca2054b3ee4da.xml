@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update node_type="content_page" unload_date="2016-12-17 02:06:14">
+    <sys_portal action="delete_multiple" query="page=9cc8299e6f86a200b5eca2054b3ee4da"/>
+    <content_page action="INSERT_OR_UPDATE">
+        <content_site display_value="Employee Self-Service">5767a89fc0a8016b012f6aecb0c816a4</content_site>
+        <content_theme/>
+        <description/>
+        <frame_buster>false</frame_buster>
+        <layout/>
+        <model_id/>
+        <model_table/>
+        <name>Test</name>
+        <order/>
+        <parent_page/>
+        <read_roles/>
+        <roles/>
+        <selectable>true</selectable>
+        <sys_class_name>content_page</sys_class_name>
+        <sys_created_by>dwhitener</sys_created_by>
+        <sys_created_on>2016-09-26 03:21:19</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>9cc8299e6f86a200b5eca2054b3ee4da</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Test</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Generic Request" source="x_cavmc_g_request">ef01930c6fb5a200b5eca2054b3ee4f9</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>true</sys_replace_on_upgrade>
+        <sys_scope display_value="Generic Request">ef01930c6fb5a200b5eca2054b3ee4f9</sys_scope>
+        <sys_update_name>content_page_9cc8299e6f86a200b5eca2054b3ee4da</sys_update_name>
+        <sys_updated_by>dwhitener</sys_updated_by>
+        <sys_updated_on>2016-09-29 03:49:25</sys_updated_on>
+        <title/>
+        <url_suffix/>
+        <user/>
+        <view/>
+        <workflow_state>published</workflow_state>
+    </content_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=9cc8299e6f86a200b5eca2054b3ee4da"/>
+</record_update>

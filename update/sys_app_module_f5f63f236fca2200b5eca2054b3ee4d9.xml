@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Generic Request (CVMC)">bf0113cc6fb5a200b5eca2054b3ee4cd</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter table="x_cavmc_g_request_generic_request_table">active=true^assigned_toISEMPTY^ORassignment_group=4c7eaffe0fedb100baa15bd692050e51^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="false" field="assigned_to" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/>
+            <item display_table="sys_user_group" display_value="Unknown" endquery="false" field="assignment_group" goto="false" newquery="false" operator="=" or="true" value="4c7eaffe0fedb100baa15bd692050e51"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Open - Unassigned</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_cavmc_g_request_generic_request_table</name>
+        <order>450</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <survey/>
+        <survey_overwrite>true</survey_overwrite>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>dwhitener</sys_created_by>
+        <sys_created_on>2016-09-30 10:55:23</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>f5f63f236fca2200b5eca2054b3ee4d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open - Unassigned</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Generic Request" source="x_cavmc_g_request">ef01930c6fb5a200b5eca2054b3ee4f9</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Generic Request">ef01930c6fb5a200b5eca2054b3ee4f9</sys_scope>
+        <sys_update_name>sys_app_module_f5f63f236fca2200b5eca2054b3ee4d9</sys_update_name>
+        <sys_updated_by>dwhitener</sys_updated_by>
+        <sys_updated_on>2016-09-30 10:55:23</sys_updated_on>
+        <timeline_page/>
+        <title>Open - Unassigned</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

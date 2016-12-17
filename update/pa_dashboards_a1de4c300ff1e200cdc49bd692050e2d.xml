@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="pa_dashboards">
+    <pa_dashboards action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <breakdown_source/>
+        <group/>
+        <groups/>
+        <is_breakdown>false</is_breakdown>
+        <managed_breakdown/>
+        <managed_publisher/>
+        <name>Test Daniel</name>
+        <no_tabs>false</no_tabs>
+        <order/>
+        <role_override>true</role_override>
+        <roles/>
+        <sys_class_name>pa_dashboards</sys_class_name>
+        <sys_created_by>dwhitener</sys_created_by>
+        <sys_created_on>2016-09-08 18:41:50</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>a1de4c300ff1e200cdc49bd692050e2d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Test Daniel</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Generic Request" source="x_cavmc_g_request">ef01930c6fb5a200b5eca2054b3ee4f9</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>true</sys_replace_on_upgrade>
+        <sys_scope display_value="Generic Request">ef01930c6fb5a200b5eca2054b3ee4f9</sys_scope>
+        <sys_update_name>pa_dashboards_a1de4c300ff1e200cdc49bd692050e2d</sys_update_name>
+        <sys_updated_by>dwhitener</sys_updated_by>
+        <sys_updated_on>2016-09-26 04:58:20</sys_updated_on>
+        <users/>
+        <visible_to>2</visible_to>
+    </pa_dashboards>
+</record_update>

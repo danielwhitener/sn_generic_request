@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_category" table="x_cavmc_g_request_generic_request_table" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Hardware</label>
+            <language>en</language>
+            <name>x_cavmc_g_request_generic_request_table</name>
+            <sequence>0</sequence>
+            <sys_created_by>dwhitener</sys_created_by>
+            <sys_created_on>2016-09-07 01:09:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>4b641f006ff5a200b5eca2054b3ee4df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dwhitener</sys_updated_by>
+            <sys_updated_on>2016-09-07 01:09:31</sys_updated_on>
+            <value>Hardware</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Software</label>
+            <language>en</language>
+            <name>x_cavmc_g_request_generic_request_table</name>
+            <sequence>1</sequence>
+            <sys_created_by>dwhitener</sys_created_by>
+            <sys_created_on>2016-09-07 01:09:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>87641f006ff5a200b5eca2054b3ee4e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dwhitener</sys_updated_by>
+            <sys_updated_on>2016-09-07 01:09:31</sys_updated_on>
+            <value>Software</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Service</label>
+            <language>en</language>
+            <name>x_cavmc_g_request_generic_request_table</name>
+            <sequence>2</sequence>
+            <sys_created_by>dwhitener</sys_created_by>
+            <sys_created_on>2016-09-07 01:09:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>03641f006ff5a200b5eca2054b3ee4e1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dwhitener</sys_updated_by>
+            <sys_updated_on>2016-09-07 01:09:31</sys_updated_on>
+            <value>Service</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>How To</label>
+            <language>en</language>
+            <name>x_cavmc_g_request_generic_request_table</name>
+            <sequence>3</sequence>
+            <sys_created_by>dwhitener</sys_created_by>
+            <sys_created_on>2016-09-27 18:44:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>0a95c2766f42e200b5eca2054b3ee453</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dwhitener</sys_updated_by>
+            <sys_updated_on>2016-09-27 18:44:05</sys_updated_on>
+            <value>How To</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_cavmc_g_request_generic_request_table</name>
+            <sequence>4</sequence>
+            <sys_created_by>dwhitener</sys_created_by>
+            <sys_created_on>2016-09-07 01:53:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>f58e9b046ff5a200b5eca2054b3ee441</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>dwhitener</sys_updated_by>
+            <sys_updated_on>2016-09-27 18:44:05</sys_updated_on>
+            <value>Other</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_category</element>
+            <name>x_cavmc_g_request_generic_request_table</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>dwhitener</sys_created_by>
+            <sys_created_on>2016-09-07 01:09:31</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>83641f006ff5a200b5eca2054b3ee4e0</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>u_category</sys_name>
+            <sys_package display_value="Generic Request" source="x_cavmc_g_request">ef01930c6fb5a200b5eca2054b3ee4f9</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Generic Request">ef01930c6fb5a200b5eca2054b3ee4f9</sys_scope>
+            <sys_update_name>sys_choice_x_cavmc_g_request_generic_request_table_u_category</sys_update_name>
+            <sys_updated_by>dwhitener</sys_updated_by>
+            <sys_updated_on>2016-09-27 18:44:05</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

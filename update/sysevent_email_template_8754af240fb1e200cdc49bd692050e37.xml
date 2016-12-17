@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysevent_email_template">
+    <sysevent_email_template action="INSERT_OR_UPDATE">
+        <collection>x_cavmc_g_request_generic_request_table</collection>
+        <message/>
+        <message_html><![CDATA[<table width="100%">
+<tbody>
+<tr><th style="text-align: center; vertical-align: middle;" colspan="2" bgcolor="#297A52"><span style="font-size: 12pt; color: white; background-color: #297a52;"><span style="font-size: 16pt;">Request&nbsp;Number:&nbsp;${URI_REF}</span><br /></span></th></tr>
+<tr>
+<td style="width: 50%; text-align: left; vertical-align: top;">
+<table>
+<tbody>
+<tr>
+<td align="right"><strong>Caller :</strong></td>
+<td>&nbsp;${u_caller}</td>
+</tr>
+<tr>
+<td align="right"><strong>Alternate Phone :</strong></td>
+<td>&nbsp;${u_alternate_phone}</td>
+</tr>
+<tr>
+<td align="right"><strong>Location :</strong></td>
+<td>&nbsp;${location}</td>
+</tr>
+<tr>
+<td align="right"><strong>Assigned To :</strong></td>
+<td>&nbsp;${assigned_to}</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="text-align: left; vertical-align: top;">
+<table>
+<tbody>
+<tr>
+<td align="right"><strong>Category :</strong></td>
+<td>&nbsp;${u_category}</td>
+</tr>
+<tr>
+<td align="right"><strong>Configuration Item :</strong></td>
+<td>&nbsp;${cmdb_ci}</td>
+</tr>
+<tr>
+<td align="right"><strong>Priority :</strong></td>
+<td>&nbsp;${priority}</td>
+</tr>
+<tr>
+<td align="right"><b>State :</b></td>
+<td>&nbsp;${state}</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style="text-align: center; vertical-align: middle;" colspan="2" bgcolor="#297A52"><span style="color: #ffffff; font-size: 16pt;"><b>Description</b></span></td>
+</tr>
+<tr>
+<td style="width: 50%; text-align: left; vertical-align: middle;" colspan="2">
+<p><b>&nbsp; Short Description:</b> ${short_description}</p>
+<hr width="98%" />
+<table width="100%" cellpadding="20px">
+<tbody>
+<tr>
+<td>${description}</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr><th style="text-align: center; vertical-align: middle;" colspan="2" bgcolor="#297A52"><span style="font-size: 16pt; color: white; background-color: #297a52;"><strong>Activity</strong></span></th></tr>
+<tr>
+<td style="width: 50%; text-align: left; vertical-align: top;">
+<p><strong>Work notes:</strong> ${work_notes}</p>
+</td>
+<td style="text-align: left; vertical-align: top;">
+<p><strong>Additional comments:</strong> ${comments}</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>genericrequest.itil.pretty</name>
+        <sms_alternate/>
+        <subject>Generic Request updates</subject>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>dwhitener</sys_created_by>
+        <sys_created_on>2016-09-08 15:39:02</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>8754af240fb1e200cdc49bd692050e37</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>genericrequest.itil.pretty</sys_name>
+        <sys_package display_value="Generic Request" source="x_cavmc_g_request">ef01930c6fb5a200b5eca2054b3ee4f9</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Generic Request">ef01930c6fb5a200b5eca2054b3ee4f9</sys_scope>
+        <sys_update_name>sysevent_email_template_8754af240fb1e200cdc49bd692050e37</sys_update_name>
+        <sys_updated_by>dwhitener</sys_updated_by>
+        <sys_updated_on>2016-09-08 15:59:38</sys_updated_on>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+</record_update>
